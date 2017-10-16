@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aarshad.toyapps.EggTimer">
+
+    <SeekBar
+        android:id="@+id/timerSeekbar"
+        android:layout_width="368dp"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/egg"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/controllerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="00:30"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/controllerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:onClick="controlTimer"
+        android:text="Go"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+</RelativeLayout>
