@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ToyApps</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_memorable_places__maps">Map</string>
 </resources>

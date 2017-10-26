@@ -130,7 +130,7 @@ public class HikersLocationLog extends AppCompatActivity {
                     address+=listAddresses.get(1).getSubThoroughfare() + "\n";
                 }
                 if (listAddresses.get(1).getThoroughfare() !=null){
-                    address+=listAddresses.get(0).getThoroughfare() + "\n";
+                    address+=listAddresses.get(1).getThoroughfare() + "\n";
                 }
                 if (listAddresses.get(1).getLocality() !=null){
                     address+=listAddresses.get(1).getLocality() + "\n";
