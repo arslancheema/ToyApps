@@ -42,7 +42,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".MemorablePlaces_MainActivity"></activity>
+        <activity android:name=".MemorablePlaces_MainActivity" />
         <activity
             android:name=".MemorablePlaces_MapsActivity"
             android:label="@string/title_activity_memorable_places__maps" />
@@ -53,6 +53,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NewsReaderApp_NewsActivity"></activity>
     </application>
 
 </manifest>
